@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+body {
+    background-image: url(assets/bg-main-mobile.png);
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 375px;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 120px;
+    padding: 24px;
+}
+.pattern1 {
+    display: none;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 45px;    
+}
+.logo {
+    Width: 146.09px;
+}
+header h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    color: #191826;
+}
+header p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+main {
+    margin-bottom: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.blue-square {
+    width: 375px;
+    height: 600px;
+    left: 0px;
+    top: 622px;
+    background: #191826;
+    border-radius: 12px;
+}
+.pattern2 {
+    z-index: 1;
+    position: absolute;
+    padding-left: 48px;
+}
+.illustration {
+    z-index: 2;
+    position: absolute;
+    width: 208.97px;
+    height: 430px;
+    margin-left: 80.67px;
+    margin-top: -100px;
+}
+.orange-square {
+    position: absolute;
+    z-index: 2;
+    width: 375px;
+    height: 546px;
+    left: 0px;
+    top: 1002px;
+    background: #FA7453;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 37px;
+    margin-top: 50px;
+
+}
+.orange-square h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+}
+.orange-square p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+}
+.value {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px; 
+    margin-top: 36px;
+    margin-left: -135px;
+}
+.value h3 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+.buttons {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.ios-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background: #191826;
+    border-radius: 12px;
+    width: 296px;
+    height: 61px;
+}
+.ios-button h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+.android-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 296px;
+    height: 61px;
+    background: #FCFAF9;
+    border-radius: 12px;
+}
+.android-button h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 32px;
+}
+.logo2 {
+    width: 146.09px;
+    height: 32px;
+
+}
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(assets/bg-main-tablet.png);
+        height: 100vh;
+        width: 768px;
+    }
+    .header-text {
+        gap: 28px;
+    }
+    header h1 {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+        width: 520px;
+    }
+    header p {
+        font-size: 18px;
+        line-height: 28px;
+        width: 514px
+    }
+    header {
+        padding: 40px;
+        width: 768px;      
+    }
+    .pattern1 {    
+        display: block;
+        width: 300px;
+        height: 500px;
+        display: flex;
+    }
+    .bloki {
+        position: absolute;
+        width: 260px;
+        height: 500px;
+        margin-top: -120px;
+        margin-left: 600px;
+        overflow: hidden;
+    }
+    main {
+        width: 768px;
+        padding: 40px;
+    }
+    .blue-square {
+        width: 696px;
+    }
+    .orange-square {
+        display: flex;
+        width: 399px
+        position: absolute;
+        margin-top: -180px;
+        margin-left: 345px;
+    }
+
+    .illustration {
+       position: absolute;
+        width: 270.21px;
+        height: 556px;
+        left: 97px;
+        top: 632px;
+    }
+    .pattern2 {
+        position: absolute;
+        padding-left: 280px;
+        padding-top: -200px;
+    }
+    footer {
+        margin-top: -100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .foot-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(assets/bg-main-desktop.png);
+        width: 1440px;
+    }
+    header {
+        
+        padding-left: 165px;
+        width: 1015px;
+    }
+    header h1 {
+        width: 1015px;
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+    header p {
+        width: auto;
+    }
+    .pattern1 {
+        width: 300px;
+        height: 550px;
+    }
+    .bloki {
+        width: 300px;
+        height: 550px;
+        margin-top: -200px;
+        margin-left: 1000px;
+        overflow: hidden;
+    }
+    main {
+        padding: 165px;
+    }
+    .blue-square {
+        width: 1100px;
+        height: 600px;
+        margin-top: -50px;
+    }
+    .illustration {
+        margin-left: 130px;
+        width: 312px;
+        height: 642px;
+    }
+    .orange-square {
+        padding: 58px;
+        margin-left: 780px;
+        margin-top: -90px;
+        width: 446px;
+        height: 625px;
+    }
+    .orange-square h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .orange-square p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 165px;
+    }
+    .foot-logo{
+        display: flex;
+        flex-direction: row;
+        gap: 140px;
+        align-items: center;
+    }
+    .ios-button:hover {
+        cursor: pointer;
+        background: #66E2DC;
+    }
+    .android-button:hover {
+        cursor: pointer;
+        background: #FFB964;
+    }
+}
